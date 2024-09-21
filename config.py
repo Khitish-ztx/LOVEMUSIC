@@ -7,22 +7,22 @@ from pyrogram import filters
 load_dotenv()
 
 # Get this value from my.telegram.org/apps
-API_ID = int(getenv("API_ID"))
-API_HASH = getenv("API_HASH")
+API_ID = int(getenv("26627014"))
+API_HASH = getenv("1df5b09d720bb0174708e9077011c145")
 # Get your token from @BotFather on Telegram.
-BOT_TOKEN = getenv("BOT_TOKEN")
+BOT_TOKEN = getenv("7458352911:AAGT-Dlgxt6SMg98HB-u7Jx8YLi5KbU01mc")
 
 # Get your mongo url from cloud.mongodb.com
-MONGO_DB_URI = getenv("MONGO_DB_URI", None)
+MONGO_DB_URI = getenv("mongodb+srv://GOKU:MISSBHOPALI@goku.pzzsl8d.mongodb.net/?retryWrites=true&w=majority", None)
 
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 16000))
 
 # Chat id of a group for logging bot's activities
-LOGGER_ID = int(getenv("LOGGER_ID"))
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1002126989582"))
+LOGGER_ID = int(getenv("-1002202172045"))
+LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1002202172045"))
 
 # Get this value from  on Telegram by /id
-OWNER_ID = int(getenv("OWNER_ID"))
+OWNER_ID = int(getenv("7089408502"))
 
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
@@ -30,7 +30,7 @@ HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 # Get it from http://dashboard.heroku.com/account
 HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 # get your bot username from telegram 
-BOT_USERNAME = getenv("BOT_USERNAME", "SIESTA_MAX_PROBOT") 
+BOT_USERNAME = getenv("BOT_USERNAME", "UtopiaSmartBot") 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
     "https://github.com/VIPBOLTE/LOVEMUSIC",
@@ -84,11 +84,11 @@ CLEANMODE_DELETE_MINS = int(
 )  # Remember to give value in Seconds
 
 # Get your pyrogram v2 session from @VIP_STRING_ROBOT on Telegram
-STRING1 = getenv("STRING_SESSION", None)
-STRING2 = getenv("STRING_SESSION2", None)
-STRING3 = getenv("STRING_SESSION3", None)
-STRING4 = getenv("STRING_SESSION4", None)
-STRING5 = getenv("STRING_SESSION5", None)
+STRING1 = getenv("BQGWS8YAnHnqXKByITdsi8i8PIvHnuORRxEBPExcPJmWsS2cEDipndD_OzXhEJqiv49pjz0Kl0luFIZh-XXnBDW8eMMclpjH5x4ZyHLx_ohtAlRE_P5Rd2c4aj53GkK3nUXqCu4-oQ31FHf7pqyABvUN9eKCwkrLvMxAfxaHCLo5EqvL_e7v4RrqHE8vRe63lXyUIhD6i6jVZw7a8oCl8UTAH66BZEFqNNW5wsRK2Uy-NfX2FjI4Ep4b7be2OOYVHMYio61ZLgSWUgkMR87hwADr2XCnZ_Pj9uMjf6K25Dsiy2lEkkOCNJ6gFQIP450fh_O6qxHkDS4EQJCrDm8q0oJUD0mLGgAAAAG-IuuuAA", None)
+STRING2 = getenv("BQGWS8YAnHnqXKByITdsi8i8PIvHnuORRxEBPExcPJmWsS2cEDipndD_OzXhEJqiv49pjz0Kl0luFIZh-XXnBDW8eMMclpjH5x4ZyHLx_ohtAlRE_P5Rd2c4aj53GkK3nUXqCu4-oQ31FHf7pqyABvUN9eKCwkrLvMxAfxaHCLo5EqvL_e7v4RrqHE8vRe63lXyUIhD6i6jVZw7a8oCl8UTAH66BZEFqNNW5wsRK2Uy-NfX2FjI4Ep4b7be2OOYVHMYio61ZLgSWUgkMR87hwADr2XCnZ_Pj9uMjf6K25Dsiy2lEkkOCNJ6gFQIP450fh_O6qxHkDS4EQJCrDm8q0oJUD0mLGgAAAAG-IuuuAA", None)
+STRING3 = getenv("BQGWS8YAnHnqXKByITdsi8i8PIvHnuORRxEBPExcPJmWsS2cEDipndD_OzXhEJqiv49pjz0Kl0luFIZh-XXnBDW8eMMclpjH5x4ZyHLx_ohtAlRE_P5Rd2c4aj53GkK3nUXqCu4-oQ31FHf7pqyABvUN9eKCwkrLvMxAfxaHCLo5EqvL_e7v4RrqHE8vRe63lXyUIhD6i6jVZw7a8oCl8UTAH66BZEFqNNW5wsRK2Uy-NfX2FjI4Ep4b7be2OOYVHMYio61ZLgSWUgkMR87hwADr2XCnZ_Pj9uMjf6K25Dsiy2lEkkOCNJ6gFQIP450fh_O6qxHkDS4EQJCrDm8q0oJUD0mLGgAAAAG-IuuuAA", None)
+STRING4 = getenv("BQGWS8YAnHnqXKByITdsi8i8PIvHnuORRxEBPExcPJmWsS2cEDipndD_OzXhEJqiv49pjz0Kl0luFIZh-XXnBDW8eMMclpjH5x4ZyHLx_ohtAlRE_P5Rd2c4aj53GkK3nUXqCu4-oQ31FHf7pqyABvUN9eKCwkrLvMxAfxaHCLo5EqvL_e7v4RrqHE8vRe63lXyUIhD6i6jVZw7a8oCl8UTAH66BZEFqNNW5wsRK2Uy-NfX2FjI4Ep4b7be2OOYVHMYio61ZLgSWUgkMR87hwADr2XCnZ_Pj9uMjf6K25Dsiy2lEkkOCNJ6gFQIP450fh_O6qxHkDS4EQJCrDm8q0oJUD0mLGgAAAAG-IuuuAA", None)
+STRING5 = getenv("BQGWS8YAnHnqXKByITdsi8i8PIvHnuORRxEBPExcPJmWsS2cEDipndD_OzXhEJqiv49pjz0Kl0luFIZh-XXnBDW8eMMclpjH5x4ZyHLx_ohtAlRE_P5Rd2c4aj53GkK3nUXqCu4-oQ31FHf7pqyABvUN9eKCwkrLvMxAfxaHCLo5EqvL_e7v4RrqHE8vRe63lXyUIhD6i6jVZw7a8oCl8UTAH66BZEFqNNW5wsRK2Uy-NfX2FjI4Ep4b7be2OOYVHMYio61ZLgSWUgkMR87hwADr2XCnZ_Pj9uMjf6K25Dsiy2lEkkOCNJ6gFQIP450fh_O6qxHkDS4EQJCrDm8q0oJUD0mLGgAAAAG-IuuuAA", None)
 
 
 
