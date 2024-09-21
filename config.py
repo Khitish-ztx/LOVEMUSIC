@@ -40,8 +40,8 @@ GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/channelz_k")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/ANIME_UNITE_CHAT")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/ZTX_ORG")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/ANIME_CHAT_GROUP_ZTX")
 
 # Maximum Limit Allowed for users to save playlists on bot's server
 SERVER_PLAYLIST_LIMIT = int(getenv("SERVER_PLAYLIST_LIMIT", "3000"))
@@ -106,13 +106,13 @@ clean = {}
 autoclean = []
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://telegra.ph/file/34a48c0114cf192d5c2ef.jpg"
+    "START_IMG_URL", "https://telegra.ph/file/4fa8f89af73f70bdfc0d0.mp4"
 )
 PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://telegra.ph/file/356899d2372049fe47ad6.jpg"
+    "PING_IMG_URL", "https://telegra.ph/file/4fa8f89af73f70bdfc0d0.mp4"
 )
 PLAYLIST_IMG_URL = "https://telegra.ph/file/356899d2372049fe47ad6.jpg"
-STATS_IMG_URL = "https://telegra.ph/file/356899d2372049fe47ad6.jpg"
+STATS_IMG_URL = "https://telegra.ph/file/4fa8f89af73f70bdfc0d0.mp4"
 TELEGRAM_AUDIO_URL = "https://telegra.ph/file/356899d2372049fe47ad6.jpg"
 TELEGRAM_VIDEO_URL = "https://telegra.ph/file/356899d2372049fe47ad6.jpg"
 STREAM_IMG_URL = "https://telegra.ph/file/356899d2372049fe47ad6.jpg"
