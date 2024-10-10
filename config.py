@@ -10,7 +10,7 @@ load_dotenv()
 API_ID = int("26627014")
 API_HASH = "1df5b09d720bb0174708e9077011c145"
 # Get your token from @BotFather on Telegram.
-BOT_TOKEN = "7458352911:AAGT-Dlgxt6SMg98HB-u7Jx8YLi5KbU01mc"
+BOT_TOKEN = "6327930809:AAEWwQaVMw_a0pxotKkM8C2BmBFaF3jLW6M"
 
 # Get your mongo url from cloud.mongodb.com
 MONGO_DB_URI = "mongodb+srv://GOKU:MISSBHOPALI@goku.pzzsl8d.mongodb.net/?retryWrites=true&w=majority"
